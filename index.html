@@ -1,0 +1,206 @@
+<!Doctype html>
+<html class="no-js" lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Grand Capital</title>
+  <link href="https://fonts.googleapis.com/css?family=PT+Sans:400,400i,700,700i&amp;subset=cyrillic" rel="stylesheet">
+  <link rel="stylesheet" href="css/foundation.min.css" />
+  <link rel="stylesheet" href="css/app.css" />
+</head>
+<body>
+  <main class="row collapse">
+    <div class="small-12 column">
+      <h2 class="text-center">Принцип работы ECN-счета</h2>
+    </div>
+
+    <div class="small-12 column">
+      <div class="row collapse">
+        <div class="medium-12 large-4 large-push-4 column text-center">
+          <img class="logo" src="img/logo.png" alt="logo">
+        </div>
+
+        <div class="small-12 medium-6 large-4 large-pull-4 column end">
+          <div id="bank1" class="bank row collapse">
+            <div class="small-5 medium-6 large-5 column">
+              <div class="bank-image medium-centered"></div>
+              <div class="caption text-center">Банк 1</div>
+            </div>
+
+            <div class="small-3 small-push-4 medium-6 medium-push-0 large-3 large-push-4 column">
+              <div class="arrow"></div>
+            </div>
+
+            <div class="small-4 small-pull-3 medium-12 large-4 large-pull-3 column">
+              <div class="bank-values">
+                <b>Bid</b> - 1.27458<br>
+                <b>Ask</b> - 1.27476
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row collapse">
+        <div class="small-12 medium-5 large-4 column">
+          <div id="bank2" class="bank row collapse">
+            <div class="small-5 medium-7 large-5 column">
+              <div class="bank-image medium-centered"></div>
+              <div class="caption text-center">Банк 2</div>
+            </div>
+
+            <div class="small-3 small-push-4 medium-5 medium-push-0 large-3 large-push-4 column">
+              <div class="arrow"></div>
+            </div>
+
+            <div class="small-4 small-pull-3 medium-12 large-4 large-pull-3 column">
+              <div class="bank-values">
+                <b>Bid</b> - 1.27458<br>
+                <b>Ask</b> - 1.27476
+              </div>
+            </div>
+
+          </div>
+
+          <div id="bank3" class="bank row collapse">
+            <div class="small-5 medium-7 large-5 column">
+              <div class="bank-image medium-centered"></div>
+              <div class="caption text-center">Банк 3</div>
+            </div>
+
+            <div class="small-3 small-push-4 medium-5 medium-push-0 large-3 large-push-4 column">
+              <div class="arrow"></div>
+            </div>
+
+            <div class="small-4 small-pull-3 medium-12 large-4 large-pull-3 column">
+              <div class="bank-values">
+                <b>Bid</b> - 1.27458<br>
+                <b>Ask</b> - 1.27476
+              </div>
+            </div>
+          </div>
+
+          <div id="bank4" class="bank row collapse">
+            <div class="small-5 medium-7 large-5 column">
+              <div class="bank-image medium-centered"></div>
+              <div class="caption text-center">Банк 4</div>
+            </div>
+
+            <div class="small-3 small-push-4 medium-5 medium-push-0 large-3 large-push-4 column">
+              <div class="arrow"></div>
+            </div>
+
+            <div class="small-4 small-pull-3 medium-12 large-4 large-pull-3 column">
+              <div class="bank-values">
+                <b>Bid</b> - 1.27458<br>
+                <b>Ask</b> - 1.27476
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="agregator small-12 medium-7 large-4 column text-center">
+          <h4>ECN-агрегатор</h4>
+          <table class="custom-table">
+            <tr>
+              <th width="96">providers</th>
+              <th>bid</th>
+              <th>ask</th>
+              <th>spead</th>
+            </tr>
+            <tr>
+              <td><div class="cell-bank">Банк 1</div></td>
+              <td><div class="cell-red">1.27458</div></td>
+              <td><div>1.27476</div></td>
+              <td><div>1.8 pips</div></td>
+            </tr>
+            <tr>
+              <td><div class="cell-bank">Банк 2</div></td>
+              <td><div>1.27455</div></td>
+              <td><div>1.27469</div></td>
+              <td><div>1.4 pips</div></td>
+            </tr>
+            <tr>
+              <td><div class="cell-bank">Банк 3</div></td>
+              <td><div>1.27451</div></td>
+              <td><div>1.27462</div></td>
+              <td><div>1.1 pips</div></td>
+            </tr>
+            <tr>
+              <td><div class="cell-bank">Банк 4</div></td>
+              <td><div>1.27453</div></td>
+              <td><div class="cell-yellow">1.27460</div></td>
+              <td><div>0.7 pips</div></td>
+            </tr>
+          </table>
+        </div>
+
+        <div class="small-12 large-4 column text-center">
+          <div class="row collapse">
+            <div class="small-12 medium-4 large-2 column">
+              <div id="computerArrow" class="small-centered"></div>
+            </div>
+
+            <div class="small-12 medium-8 large-10 column">
+              <div class="computer small-centered">
+                <div class="row collapse">
+                  <div class="small-6 column">
+                    <div class="computer-cell">1.27458<br><b>SELL</b></div>
+                  </div>
+                  <div class="small-6 column">
+                    <div class="computer-cell last">1.27462<br><b>BUY</b></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <section class="steps">
+    <div class="row collapse">
+      <div class="small-12 column">
+        <h2>Начни зарабатывать c Grand Capital</h2>
+        <div class="step">
+          <div class="number">1</div>
+          <div>
+            <h4>Зарегистрируйтесь и откройте счет</h4>
+            <p>Вы также можете открыть учебный демо-счет, чтобы понять принципы торговли.</p>
+          </div>
+        </div>
+        <div class="step">
+          <div class="number">2</div>
+          <div>
+            <h4>Установите программу или откройте веб-трейдер в браузере</h4>
+            <p>Для работы на Forex необходима торговая платформа. Для вашего удобства мы предлагаем терминал Metatrader, который вы можете бесплатно установить с нашего сайта, и веб-трейдер для онлайн торговли в браузере.</p>
+          </div>
+        </div>
+        <div class="step">
+          <div class="number">3</div>
+          <div>
+            <h4>Выберите торговую стратегию</h4>
+            <p>Спрогнозируйте, возрастет или снизится цена на выбранный вами актив, и на основе прогноза сделайте ставку на продажу или покупку.</p>
+          </div>
+        </div>
+        <div class="step">
+          <div class="number">4</div>
+          <div>
+            <h4>Получайте прибыль</h4>
+            <p>Средства, полученные от торговли, вы можете вывести любым удобным способом. Мы гарантируем быстрые операции с любыми суммами</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <div id="sliderUp"></div>
+    
+  <script src="js/vendor/jquery.js"></script>
+  <script src="js/vendor/what-input.js"></script>
+  <script src="js/vendor/foundation.min.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>
